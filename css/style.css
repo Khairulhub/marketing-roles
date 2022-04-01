@@ -1,0 +1,138 @@
+@media  (min-width: 992px) {
+    .text{
+        display: flex;
+        justify-content:end ;
+        margin-right: 425px;
+    }
+    .firstPart{
+        height: 300px;
+        margin: 60px auto;
+        position: relative;
+    }
+    .firstImg{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        
+    }
+    .firstImgText{
+        position: absolute;
+        left: 350px;
+    }
+    .devider1{
+        position: relative;
+    }
+    .devider1-body{
+        height: 250px;
+    }
+    
+    .devider1-img img{
+        border: 5px solid #DA291C;
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        top: -30px;
+        right: -80px;
+        
+    }
+    .devider2{
+        margin: 10px 0 px;
+        position: relative;
+    }
+    .devider2-body{
+        height: 250px;
+        
+    }
+    .devider2-img{
+        height: 250px;
+        width: 250px;
+    }
+    .devider2-img img{
+        border: 5px solid #DA291C;
+        /* margin: 1px 0 ; */
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        top: -30px;
+        left: -80px;
+    }
+}
+@media  screen and (min-width: 668px) and (max-width:991px)  {
+    .main{
+        position: relative;
+    }
+    .main-width{
+        width: 100%;
+    }
+    .text{
+        display: flex;
+        justify-content:end ;
+        padding:0 45px 0 0 ;
+        /* margin-right: 10px; */
+        /* margin-right: 425px; */
+    }
+    .firstPart{
+        height: 370px;
+        margin-bottom: 20px;
+        /* margin: 60px auto; */
+        /* position: relative; */
+    }
+    .firstImg{
+        height: 400px;
+        width: 300px;
+        /* border-radius: 20px; */
+        position: absolute;
+        top: 0px;
+        left: 0;
+        
+    }
+    .firstImgText{
+        text-align: justify;
+        position: absolute;
+        left: 300px;
+
+    }
+    .devider1{
+        position: relative;
+    }
+    .devider1-body{
+        height: 260px;
+    }
+    .devider1-img{
+        height: 270px;
+        width: 230px;
+    }
+    .devider1-img img{
+        border: 5px solid #DA291C;
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        top: -20px;
+        right: -130px;
+        
+    }
+    .devider2{
+        margin: 10px 0 px;
+        position: relative;
+    }
+    .devider2-body{
+        height: 230px;
+        
+    }
+    .devider2-img{
+        height: 250px;
+        width: 250px;
+    }
+    .devider2-img img{
+        border: 5px solid #DA291C;
+        /* margin: 1px 0 ; */
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        top: -20px;
+        left: -120px;
+    }
+}
